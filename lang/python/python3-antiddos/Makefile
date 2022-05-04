@@ -23,11 +23,11 @@ HOST_PYTHON3_PACKAGE_BUILD_DEPENDS:=Cython
 include $(INCLUDE_DIR)/package.mk
 include ../python3-package.mk
 
-define Package/antiddos
+define Package/python3-antiddos
   SECTION:=lang
   CATEGORY:=Languages
   SUBMENU:=Python
-  TITLE:=Scipy
+  TITLE:=Antiddos
   DEPENDS:=+python3-light
   VARIANT:=python3
 endef
